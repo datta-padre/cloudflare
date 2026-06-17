@@ -48,7 +48,7 @@ function Home() {
       <Navbar />
 
       <section className="relative overflow-hidden">
-        <div className="relative h-[300px] md:h-[600px]">
+        <div className="relative h-[300px] md:h-[620px]">
           <img
             src={slides[current].image}
             alt={slides[current].title}
