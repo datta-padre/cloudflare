@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,12 +19,12 @@ function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#" className="font-medium text-white hover:text-indigo-600 transition">
-              Home
-            </a>
-            <a href="#" className="font-medium text-white hover:text-indigo-600 transition">
-              Products
-            </a>
+            <Link to="/" className="text-white font-bold">
+            Home
+            </Link>
+            <Link to="https://google.com" className="text-white font-bold">
+            Products
+            </Link>
             <a href="#" className="font-medium text-white hover:text-indigo-600 transition">
               Cart
             </a>
