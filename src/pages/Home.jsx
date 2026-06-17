@@ -75,7 +75,7 @@ function Home() {
           {/* Prev Button */}
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full shadow-lg"
+            className="absolute left-4 top-1/2 -translate-y-1/2  p-3 rounded-full shadow-lg"
           >
             ❮
           </button>
@@ -83,7 +83,7 @@ function Home() {
           {/* Next Button */}
           <button
             onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full shadow-lg"
+            className="absolute right-4 top-1/2 -translate-y-1/2  p-3 rounded-full shadow-lg"
           >
             ❯
           </button>
